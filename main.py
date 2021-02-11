@@ -82,7 +82,7 @@ def job():
                 time.sleep(10)
 
             if (trytime >= 5):
-                print(username[x] + "登记失败,跟换账户")
+                print(username[x] + "登记失败,更换账户")
                 break
 
 def TEST():
@@ -121,7 +121,7 @@ def TEST():
                 time.sleep(10)
 
             if (trytime >= 5):
-                print(username[x]+ "登记失败,跟换账户")
+                print(username[x]+ "登记失败,更换账户")
                 break
 
 
