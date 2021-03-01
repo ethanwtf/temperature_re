@@ -79,7 +79,8 @@ def job():
             else:
                 print(username[x] + "登记失败")
                 print("尝试次数：" + str(trytime))
-                time.sleep(10)
+                time.sleep(1800)
+                #等待半个小时
 
             if (trytime >= 5):
                 print(username[x] + "登记失败,更换账户")
@@ -118,7 +119,8 @@ def TEST():
             else:
                 print(username[x]+ "登记失败")
                 print("尝试次数：" + str(trytime))
-                time.sleep(10)
+                time.sleep(1800)
+                #等待半个小时
 
             if (trytime >= 5):
                 print(username[x]+ "登记失败,更换账户")
