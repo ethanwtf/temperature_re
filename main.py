@@ -135,7 +135,7 @@ if __name__ == '__main__':
     print("系统测试")
     print("测试成功，系统启动")
     scheduler = BlockingScheduler(timezone=timez)
-    trigger1 = CronTrigger(day_of_week='0-6', hour=8, minute=00, second=00,timezone=timez)
+    trigger1 = CronTrigger(day_of_week='0-6', hour=7, minute=00, second=00,timezone=timez)
     #每天8点响应一下
     trigger2 = CronTrigger(day_of_week='0-6', hour=13, minute=00, second=00,timezone=timez)
     trigger3 = IntervalTrigger(hours=1,timezone=timez)
